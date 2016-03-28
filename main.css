@@ -62,7 +62,15 @@ btn {
 div {
     display: block;
 }
-.login {}
+.login {
+    box-sizing: border-box;
+    float: left;
+    line-height: 18.2px;
+    padding-left: 32px;
+    position: relative;
+    width: 302px;
+    word-wrap: break-word;
+}
 .footer {
     color: #333;
     display: block;
@@ -79,6 +87,7 @@ div {
 ul {
     list-style: none;
     display: inline-block;
+    list-style-position: outside;
     -webkit-margin-before: 1em;
     -webkit-margin-after: 1em;
     -webkit-margin-start: 0px;
@@ -90,4 +99,13 @@ h1 {
     align-content: center;
     font-family: sans-serif;
     font-size: 30px;
+}
+h5 {
+    height: 15px;
+    width: 270px;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    font-size: 11px;
+    word-wrap: break-word;
 }
