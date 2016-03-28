@@ -43,10 +43,47 @@ body {
     box-sizing: border-box;
     width: 302px;
     height: 180px;
-    padding: 22px;
+    float: left;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 18.2px;
+    padding-right: 32px;
+    word-wrap: break-word;
+}
+btn {
+    color: #333;
+    display: block;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 18.2px;
+    width: 269px;
+    word-wrap: break-word;
 }
 div {
     display: block;
+}
+.login {}
+.footer {
+    color: #333;
+    display: block;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 18.2px;
+    margin: 0px, 0px, 0px, 0px;
+    padding: 0px, 0px, 0px, 0px;
+    text-align: center;
+    width: 650px;
+    height: 18px;
+    word-wrap: break-word;
+}
+ul {
+    list-style: none;
+    display: inline-block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
 }
 h1 {
     color: red;
