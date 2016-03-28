@@ -5,52 +5,57 @@
         <meta charset="utf-8">
         <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="main.css">
-        <title>quoraloginpage</title>
+        <title>Quora - The best answer to any question</title>
 
     </head>
 
     <body>
-        <header>
-            <div class="logo">
-                <h1>Quora</h1>
-            </div>
-            <div class="tagline">
-                <h3>The best answer to any question</h3>
-            </div>
-        </header>
-        <div class="container">
-            <div class="signup">
-                <section>
-                    <btn class="google"><a href="https://plus.google.com/">Continue with Google</a></btn>
+        <div class="bg_container">
+            <div class="image"></div>
+            <div class="form">
+                <header>
+                    <div class="logo">
+                        <h1>Quora</h1>
+                    </div>
+                    <div class="tagline">
+                        <h3>The best answer to any question</h3>
+                    </div>
+                </header>
+                <div class="container">
+                    <div class="signup">
+                        <section>
+                            <btn class="google"><a href="https://plus.google.com/">Continue with Google</a></btn>
 
-                    <btn class="facebook"><a href="https://www.facebook.com/">Continue with Facebook</a></btn>
-                    <p><a href="#">Continue With Email.</a>By signing up you indicate that you have read and agree to the Terms of Service and Privacy Policy</p>
-                </section>
+                            <btn class="facebook"><a href="https://www.facebook.com/">Continue with Facebook</a></btn>
+                            <p><a href="#">Continue With Email.</a>By signing up you indicate that you have read and agree to the Terms of Service and Privacy Policy</p>
+                        </section>
+                    </div>
+                    <form class="login" action="Login" method="post">
+                        <h5>LOGIN</h5>
+                        <label>
+                            <input type="email" name="email" placeholder="Email">
+                        </label>
+                        <label>
+                            <input type="checkbox" name="remember me" value="remeber me">Remember Me
+                        </label>
+                        <label>
+                            <input type="password" name="password" placeholder="Password">
+                        </label>
+                        <p><a href="#">Forgot Password? </a></p>
+                    </form>
+                </div>
+                <div class="footer">
+                    <ul class="nav_list">
+                        <li class="about">About</li>
+                        <li class="careers">Careers</li>
+                        <li class="privacy">Privacy</li>
+                        <li class="sitemap">Sitemap</li>
+                        <li class="tos">Terms</li>
+                        <li class="feedback">Feedback</li>
+                        <li class="contacts">Contacts</li>
+                    </ul>
+                </div>
             </div>
-            <form class="login" action="Login" method="post">
-                <h5>LOGIN</h5>
-                <label>
-                    <input type="email" name="email" placeholder="Email">
-                </label>
-                <label>
-                    <input type="checkbox" name="remember me" value="remeber me">Remember Me
-                </label>
-                <label>
-                    <input type="password" name="password" placeholder="Password">
-                </label>
-                <p><a href="#">Forgot Password? </a></p>
-            </form>
-        </div>
-        <div class="footer">
-            <ul class="nav_list">
-                <li class="about">About</li>
-                <li class="careers">Careers</li>
-                <li class="privacy">Privacy</li>
-                <li class="sitemap">Sitemap</li>
-                <li class="tos">Terms</li>
-                <li class="feedback">Feedback</li>
-                <li class="contacts">Contacts</li>
-            </ul>
         </div>
     </body>
 
