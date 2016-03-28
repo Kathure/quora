@@ -1,3 +1,53 @@
+body {
+    height: 100%;
+    word-wrap: break-word;
+    color: #333;
+    font-size: 13px;
+    overflow-y: scroll;
+    overflow-x: auto;
+    margin: 0;
+    display: block;
+    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.logo {
+    margin: auto;
+    float: none;
+    width: 160px;
+    background-size: 160px 45px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 56px;
+}
+.tagline {
+    float: none;
+    text-align: center;
+    margin-left: 16px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    font-size: 19px;
+    line-height: 1.3;
+    color: rgba(175, 175, 175, 0.95);
+    -webkit-font-smoothing: antialiased;
+}
+.container {
+    width: 650px;
+    height: 247px;
+    display: table;
+    padding: 22px, 22px, 22px, 22px
+}
+.signup {
+    background: #fff;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    margin-top: 0;
+    box-sizing: border-box;
+    width: 302px;
+    height: 180px;
+    padding: 22px;
+}
+div {
+    display: block;
+}
 h1 {
     color: red;
     align-content: center;
