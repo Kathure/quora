@@ -123,13 +123,23 @@ div {
 }
 ul {
     list-style: none;
-    display: inline-block;
+    list-style-type: none;
+    display: block;
     list-style-position: outside;
     -webkit-margin-before: 1em;
     -webkit-margin-after: 1em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
     -webkit-padding-start: 40px;
+}
+li {
+    display: inline;
+}
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }
 h1 {
     color: red;
