@@ -5,13 +5,9 @@ body {
     font-size: 13px;
     overflow-y: scroll;
     overflow-x: auto;
-    margin: 0;
+    margin: auto;
     display: block;
     font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-.bg_conatiner {
-    height: 619px;
-    width: 778px;
 }
 .image {
     background-attachment: scroll;
@@ -19,17 +15,16 @@ body {
     background-color: #000;
     background-image: url(bg__image.jpg);
     background-origin: padding-box;
-    background-position: 50%;
+    background-position: ;
     background-repeat: no-repeat;
-    background-size: 1757px 845px;
+    background-size: cover;
     color: #333;
     display: block;
-    left: 389px;
     line-height: 18.2px;
-    margin-left: -942px;
+    margin: auto;
     opacity: 0.8;
-    position: absolute;
-    width: 1884px;
+    position: relative;
+    width: 1500px;
     word-wrap: break-word;
 }
 .form {
@@ -69,6 +64,7 @@ body {
 .container {
     width: 650px;
     height: 247px;
+    margin: auto;
     display: table;
     padding: 22px, 22px, 22px, 22px
 }
