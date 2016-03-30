@@ -153,3 +153,15 @@ h5 {
     font-size: 11px;
     word-wrap: break-word;
 }
+btn.google,
+.facebook {
+    border-radius: 0;
+    font-size: 17px;
+    background-color: #df4930;
+    display: block;
+    margin-bottom: 16px;
+    padding: 12px 19px;
+}
+btn.facebook {
+    background-color: #3b5998;
+}
