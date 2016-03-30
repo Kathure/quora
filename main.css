@@ -64,7 +64,7 @@ body {
 }
 .container {
     width: 650px;
-    height: 247px;
+    height: 200px;
     margin: auto;
     display: table;
     padding: 22px, 22px, 22px, 22px
@@ -76,7 +76,6 @@ body {
     margin-top: 0;
     box-sizing: border-box;
     width: 302px;
-    height: 180px;
     float: left;
     font-size: 13px;
     font-weight: normal;
@@ -103,6 +102,7 @@ div {
     padding-left: 32px;
     position: relative;
     width: 302px;
+    height: 200px;
     word-wrap: break-word;
 }
 .footer {
@@ -161,6 +161,7 @@ btn.google,
     display: block;
     margin-bottom: 16px;
     padding: 12px 19px;
+    width: 250px;
 }
 btn.facebook {
     background-color: #3b5998;
