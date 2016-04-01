@@ -41,10 +41,16 @@
                 <div class="container">
                     <div class="signup">
                         <section>
-                            <btn class="google"><a href="https://plus.google.com/">Continue with Google</a></btn>
 
-                            <btn class="facebook"><a href="https://www.facebook.com/">Continue with Facebook</a></btn>
-                            <p><a href="#">Continue With Email.</a>By signing up you indicate that you have read and agree to the Terms of Service and Privacy Policy</p>
+                            <btn class="google" id="logos">
+                                <a href="https://plus.google.com/" id="logos"><img src="https://qsf.is.quoracdn.net/-images.new_grid.google_white_inverted.pngd6213154c6b5fab6.png" id="googlelogo">Continue with Google</a>
+                            </btn>
+
+                            <btn class="facebook" id="logos">
+                                <a href="https://www.facebook.com/" id="logos"><img src="facebook.png"> Continue with Facebook</a>
+                            </btn>
+
+                            <p><a href="#" id="email">Continue With Email.</a>By signing up you indicate that you have read and agree to the Terms of Service and Privacy Policy</p>
                         </section>
                     </div>
                     <form class="login" action="Login" method="post">
@@ -53,14 +59,18 @@
                             <input type="email" name="email" placeholder="Email">
                         </label>
                         <br/>
+                        <br/>
                         <label>
                             <input type="checkbox" name="remember me" value="remeber me">Remember Me
                         </label>
+                        <br/>
+                        <br/>
                         <label>
                             <input type="password" name="password" placeholder="Password">
                         </label>
+                        <br/>
                         <p><a href="#">Forgot Password? </a></p>
-                        <input class="btn btn-default" type="submit" name="Login" value="Login">
+                        <input class="btn-default" type="submit" name="Login" value="Login">
 
                     </form>
                 </div>

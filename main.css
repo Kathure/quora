@@ -101,23 +101,11 @@ div {
     line-height: 18.2px;
     padding-left: 32px;
     position: relative;
-    width: 302px;
+    width: 270px;
     height: 200px;
     word-wrap: break-word;
 }
-a .footer {
-    display: block;
-    font-size: 13px;
-    font-weight: normal;
-    line-height: 18.2px;
-    margin: 0px, 0px, 0px, 0px;
-    padding: 0px, 0px, 0px, 0px;
-    text-align: center;
-    width: 650px;
-    height: 18px;
-    word-wrap: break-word;
-    text-decoration-color: black;
-}
+
 ul {
     list-style: none;
     list-style-type: none;
@@ -133,6 +121,7 @@ li {
     display: inline;
 }
 a:link {
+    color: grey;
     text-decoration: none;
 }
 a:hover {
@@ -157,12 +146,53 @@ btn.google,
 .facebook {
     border-radius: 0;
     font-size: 17px;
-    background-color: red;
+    font-weight: 500;
+    background-color: #df4930;
     display: block;
     margin-bottom: 16px;
     padding: 12px 19px;
     width: 250px;
 }
 btn.facebook {
-    background-color: blue;
+    background-color: #507cc0;
+}
+.btn-default {
+    margin-top: 8px;
+    float: right;
+    font-size: 15px;
+    line-height: 1.4px;
+    font-weight: 500;
+    padding: 3px 7px 4px 7px;
+    text-align: center;
+    background: #3e78ad;
+    color: #fff;
+    border: 1px solid #3a66ad;
+    box-shadow: 0 1px 1px 0;
+    height: 30px;
+    width: 52.7031px;
+    display: inline-block;
+}
+#googlelogo,
+#facebook {
+    width: 24px;
+    height: 24px;
+    background-size: 24px 24px;
+    background-image: url(https://qsf.is.quoracdn.net/-images.new_grid.google_white_inverted.pngd6213154c6b5fab6.png);
+    float: left;
+    content: "";
+    margin-right: 8px;
+    display: inline-block;
+}
+#facebooklogo {
+    background-image: url(facebook.png);
+}
+#logos {
+    font-size: 18px;
+    font-weight: 800;
+    color: #ffffff;
+    text-decoration-color: #fff;
+}
+#email {
+    color: blue;
+    text-decoration-color: blue;
 }
