@@ -105,7 +105,6 @@ div {
     height: 200px;
     word-wrap: break-word;
 }
-
 ul {
     list-style: none;
     list-style-type: none;
@@ -147,14 +146,14 @@ btn.google,
     border-radius: 0;
     font-size: 17px;
     font-weight: 500;
-    background-color: #df4930;
+    background-color: red;
     display: block;
     margin-bottom: 16px;
     padding: 12px 19px;
     width: 250px;
 }
 btn.facebook {
-    background-color: #507cc0;
+    background-color: blue;
 }
 .btn-default {
     margin-top: 8px;
